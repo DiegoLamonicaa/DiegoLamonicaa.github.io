@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Real Pampina · Lyons League Barcellona Pozzo di Gotto</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a0a;--fg:#f5f1e6;--mut:#a89f86;--g:#d9a521;--gd:#050505;--w:#d9a521;--card:#141210;--line:#2e2716;--gold:#d9a521;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.55 Barlow,system-ui,sans-serif}
+h1,h2,h3{font-family:Anton,Impact,sans-serif;font-weight:400;margin:0;letter-spacing:.02em}
+nav{border-bottom:2px solid var(--gold);position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--gd);display:flex;gap:4px;overflow-x:auto;padding:10px 14px}
+nav a{color:#eef2ea;text-decoration:none;padding:6px 12px;border-radius:99px;white-space:nowrap;font-weight:600;font-size:15px}
+nav a:hover,nav a:focus-visible{background:var(--gold);color:#000;outline:none}
+section{max-width:1080px;margin:0 auto;padding:64px 20px}
+h2{font-size:clamp(34px,6vw,54px);margin-bottom:8px}
+.sub{color:var(--mut);margin:0 0 28px;max-width:60ch}
+.hero{border-bottom:3px solid var(--gold);background:var(--gd);color:#fff;max-width:none;padding:0;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,#0a0a0a 0 90px,#12100a 90px 180px)}
+.hin{position:relative;max-width:1080px;margin:auto;padding:56px 20px 64px;display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:center}
+#logo{display:flex;justify-content:center}
+.hin svg,.hin img{width:min(300px,62vw);height:auto;filter:drop-shadow(0 12px 24px #0008)}
+.hero h1{font-size:clamp(52px,12vw,138px);line-height:.92}
+.hero h1 span{color:var(--gold)}
+.hero p{margin:14px 0 22px;font-size:19px;opacity:.9}
+.next{display:inline-block;background:#fff;color:#10241a;border-radius:12px;padding:14px 18px;border-left:6px solid var(--gold)}
+.next b{font-family:Anton;font-size:26px;letter-spacing:.03em;font-weight:400}
+#cd{display:flex;gap:14px;margin-top:6px;font-weight:700}
+@media(max-width:640px){.hin{grid-template-columns:1fr;text-align:center}.hin svg{margin:auto}#cd{justify-content:center}}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.ph{aspect-ratio:4/5;background:linear-gradient(160deg,#8a6a16,#0a0a0a) center/cover;display:grid;place-items:center;color:#ffffff88;font:400 60px Anton;position:relative}
+.ph.done{color:transparent}
+.card .t{padding:14px 16px}
+.card .t small{color:var(--mut);display:block}
+.card .t b{display:block;font-size:19px;margin-top:4px}
+.role{background:var(--gold);color:#000;border-radius:99px;padding:2px 10px;font-size:13px;font-weight:600;display:inline-block;margin-bottom:4px}
+.num{position:absolute;top:8px;left:12px;font:400 30px Anton;color:#fff}
+.kits{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.kit{text-align:center;padding:22px}
+.kit svg{width:170px}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:14px;overflow:hidden}
+th,td{padding:11px 10px;text-align:center;border-bottom:1px solid var(--line)}
+th{background:var(--gold);color:#000;font-weight:600}
+td:nth-child(2),th:nth-child(2){text-align:left}
+tr.me td{background:color-mix(in srgb,var(--g) 18%,var(--card));font-weight:700}
+.wrap{overflow-x:auto}
+.m{display:grid;grid-template-columns:96px 1fr auto;gap:14px;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+.m:last-child{border:0}
+.m .d{color:var(--mut);font-weight:600;font-size:15px}
+.m .s{font:400 26px Anton;background:var(--gold);color:#000;padding:2px 14px;border-radius:8px}
+.spons{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(180px,1fr))}
+.sp{border:2px dashed var(--line);border-radius:14px;min-height:110px;display:grid;place-items:center;text-align:center;padding:12px;color:var(--mut);font-weight:600}
+.sp img{max-width:100%;max-height:90px;object-fit:contain}
+.sp.main{border:2px solid var(--gold);color:var(--fg);grid-column:1/-1;min-height:130px;font:400 30px Anton}
+footer{border-top:3px solid var(--gold);background:var(--gd);color:#dfe8dc;text-align:center;padding:40px 20px}
+footer a{color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#10241a;font-weight:700;padding:10px 18px;border-radius:10px;text-decoration:none;margin:4px}
+</style>
+</head>
+<body>
+<nav>
+<a href="#top">Home</a><a href="#societa">Società</a><a href="#rosa">Rosa</a><a href="#divise">Divise</a><a href="#partite">Partite</a><a href="#classifica">Classifica</a><a href="#sponsor">Sponsor</a><a href="#contatti">Contatti</a>
+</nav>
+
+<header class="hero" id="top"><div class="hin">
+<div id="logo"><img src="img/logo.png" alt="Logo Real Pampina"></div>
+<div>
+<h1>Real <span>Pampina</span></h1>
+<p>Lyons League · Barcellona Pozzo di Gotto · Stagione 2026/27</p>
+<div class="next"><small>Prossima partita</small><br><b id="nx">Data da definire</b><div id="cd"></div></div>
+</div></div></header>
+
+<section id="societa">
+<h2>La società</h2>
+<p class="sub">Chi guida il Real Pampina dentro e fuori dal campo.</p>
+<div class="grid" id="staff"></div>
+</section>
+
+<section id="rosa">
+<h2>La rosa</h2>
+<p class="sub">I giocatori che vestiranno la maglia del Real Pampina.</p>
+<div class="grid" id="players"></div>
+</section>
+
+<section id="divise">
+<h2>Le divise</h2>
+<p class="sub">Colori scelti da noi: nero e oro.</p>
+<div class="kits" id="kits"></div>
+</section>
+
+<section id="partite">
+<h2>Calendario e risultati</h2>
+<p class="sub">Tutte le partite del girone. Le date verranno aggiornate dopo il sorteggio.</p>
+<div class="card" id="matches"></div>
+</section>
+
+<section id="classifica">
+<h2>Classifica</h2>
+<p class="sub">Lyons League, aggiornata dopo ogni giornata.</p>
+<div class="wrap"><table id="tab"><thead><tr><th>#</th><th>Squadra</th><th>G</th><th>V</th><th>N</th><th>P</th><th>GF</th><th>GS</th><th>Pt</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section id="sponsor">
+<h2>I nostri sponsor</h2>
+<p class="sub">Grazie a chi crede nel Real Pampina e sostiene la squadra.</p>
+<div class="spons" id="sp"></div>
+</section>
+
+<section id="contatti">
+<h2>Contatti</h2>
+<p class="sub">Vuoi sostenerci, diventare sponsor o venire a vederci?</p>
+<a class="btn" href="https://wa.me/393339913903">WhatsApp</a><a class="btn" href="https://www.instagram.com/diego.lamonicaa?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==">Instagram</a><a class="btn" href="mailto:lamonic.diego@gmail.com">Email</a>
+<p><b>Campo di gioco:</b> Barcellona Pozzo di Gotto (ME), indirizzo da inserire.</p>
+</section>
+
+<footer><b>Real Pampina</b> · Squadra amatoriale della Lyons League<br><small>Forza Pampina!</small></footer>
+
+<script>
+// ===== DATI DA MODIFICARE =====
+// Logo: scrivi il percorso del file (es. "img/logo.png"). Lascia "" per usare il logo disegnato.
+const logo="img/logo.png";
+// Presidente, dirigente, mister: [ruolo, nome, sigla, foto]  -> foto: percorso file (es. "img/presidente.jpg") oppure ""
+const staff=[["Presidente","Ferdinando Trifilò","PR","img/ferdinando.jpg"],["Dirigente sportivo","Salvatore Sottile","DS","img/sottile.jpg"],["Mister","Marco Calabrò","MI","img/calabro.jpg"]];
+// Giocatori: [ruolo, nome, numero, foto]
+const players=[["Portiere","Salvatore Caravello",1,""],["Difensore","Giuseppe Amato",2,""],["Difensore","Giuseppe Rosario Buccheri",3,""],["Difensore","Medined Jukaj",5,""],["Centrocampista","Diego Lamonica",6,""],["Centrocampista","Giuseppe D'angelo",8,""],["Centrocampista","Orsid Jukaj",10,""],["Attaccante","Cristian Fazio",7,""]];
+const kits=[["Prima maglia","#0a0a0a","#d9a521","#d9a521"],["Seconda maglia","#f5f1e6","#0a0a0a","#d9a521"],["Portiere","#5a5a5a","#f5f1e6","#d9a521"]];
+const matches=[["Da definire","Real Pampina","Avversario","",""],["Da definire","Avversario","Real Pampina","",""],["Da definire","Real Pampina","Avversario","",""]];
+const teams=[["Real Pampina",0,0,0,0,0,0],["Squadra 2",0,0,0,0,0,0],["Squadra 3",0,0,0,0,0,0],["Squadra 4",0,0,0,0,0,0],["Squadra 5",0,0,0,0,0,0],["Squadra 6",0,0,0,0,0,0]]; // nome,V,N,P,GF,GS,...
+// Sponsor: [nome, logo]  -> il primo è lo sponsor principale (riquadro grande). Logo: percorso file oppure ""
+const sponsors=[["Sponsor principale",""],["Sponsor 2",""],["Sponsor 3",""],["Sponsor 4",""],["Sponsor 5",""],["Sponsor 6",""]];
+const nextMatch=null; // es. "2026-10-10T20:30"
+// ==============================
+const $=s=>document.querySelector(s);
+const bg=u=>u?` style="background-image:url('${u}')"`:"";
+const dn=u=>u?" done":"";
+if(logo)$("#logo").innerHTML=`<img src="${logo}" alt="Logo Real Pampina">`;
+$("#staff").innerHTML=staff.map(s=>`<div class="card"><div class="ph${dn(s[3])}"${bg(s[3])}>${s[2]}</div><div class="t"><span class="role">${s[0]}</span><b>${s[1]}</b></div></div>`).join("");
+$("#players").innerHTML=players.map(p=>`<div class="card"><div class="ph${dn(p[3])}"${bg(p[3])}><span class="num">${p[2]}</span>${p[2]}</div><div class="t"><b>${p[1]}</b><small>${p[0]}</small></div></div>`).join("");
+const jersey=(a,b,c)=>`<svg viewBox="0 0 100 100" role="img"><path d="M30 8 L8 22 L17 42 L26 36 L26 92 L74 92 L74 36 L83 42 L92 22 L70 8 Q50 24 30 8Z" fill="${a}" stroke="#d9a52188" stroke-width="1.5"/><path d="M30 8 Q50 24 70 8" fill="none" stroke="${c}" stroke-width="4"/><path d="M8 22 L17 42 M92 22 L83 42" stroke="${c}" stroke-width="4"/><text x="50" y="62" text-anchor="middle" font-family="Anton" font-size="24" fill="${b}">RP</text></svg>`;
+$("#kits").innerHTML=kits.map(k=>`<div class="card kit">${jersey(k[1],k[2],k[3])}<h3>${k[0]}</h3></div>`).join("");
+$("#matches").innerHTML=matches.map(m=>`<div class="m"><span class="d">${m[0]}</span><span><b>${m[1]}</b> – ${m[2]}</span><span class="s">${m[3]||"–"} : ${m[4]||"–"}</span></div>`).join("");
+const rows=teams.map(t=>({n:t[0],v:t[1],x:t[2],p:t[3],gf:t[4],gs:t[5],pt:t[1]*3+t[2],g:t[1]+t[2]+t[3]})).sort((a,b)=>b.pt-a.pt||(b.gf-b.gs)-(a.gf-a.gs));
+$("#tab tbody").innerHTML=rows.map((r,i)=>`<tr class="${r.n=="Real Pampina"?"me":""}"><td>${i+1}</td><td>${r.n}</td><td>${r.g}</td><td>${r.v}</td><td>${r.x}</td><td>${r.p}</td><td>${r.gf}</td><td>${r.gs}</td><td><b>${r.pt}</b></td></tr>`).join("");
+$("#sp").innerHTML=sponsors.map((s,i)=>`<div class="sp ${i?"":"main"}">${s[1]?`<img src="${s[1]}" alt="${s[0]}">`:s[0]+(i?"":"<br><small style='font:600 15px Barlow;color:var(--mut)'>Il tuo logo qui</small>")}</div>`).join("");
+// countdown
+if(nextMatch){const t=new Date(nextMatch);$("#nx").textContent=t.toLocaleString("it-IT",{dateStyle:"full",timeStyle:"short"});
+const u=()=>{let d=t-Date.now();if(d<0)return $("#cd").textContent="";const g=Math.floor(d/864e5),h=Math.floor(d/36e5%24),m=Math.floor(d/6e4%60);$("#cd").innerHTML=`<span>${g} giorni</span><span>${h} ore</span><span>${m} min</span>`};u();setInterval(u,6e4)}
+</script>
+</body>
+</html>
